@@ -2,7 +2,12 @@ type account = {
     money:number,
     deposit:(value:number)=> void
 }
-
+type me = {
+    name:string;
+    bankAccount:account;
+    hobbies:Array<string>
+}
+ 
 let bankAccount : account= {
     money: 2000,
     deposit(value:number) {
@@ -11,7 +16,7 @@ let bankAccount : account= {
 };
 
 let myself =  {
-    name: "Max",
+    name: "Munalula Sikazwe",
     bankAccount: bankAccount,
     hobbies: ["Sports", "Cooking"]
 };
