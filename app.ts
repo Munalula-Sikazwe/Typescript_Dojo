@@ -7,3 +7,10 @@ function  multiply(firstNumber:number,secondNumber:number):number{
  return firstNumber * secondNumber;
 }
 console.log(multiply(2,5));
+
+
+const greet = (name:string):void=> {
+ console.log("Hello "+ name);
+}
+greet("Munalula");
+
